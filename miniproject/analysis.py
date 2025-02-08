@@ -8,7 +8,7 @@ file_path = r'C:\MiniProject_AI\miniproject\cleaned_data.csv'
 data = pd.read_csv(file_path)
 
 # Basic statistics
-numeric_cols = ['age', 'latitude', 'longitude']
+numeric_cols = ['age']
 print("Basic Statistics for Numeric Columns:")
 print(data[numeric_cols].describe())
 print("\nMedian Values:")
